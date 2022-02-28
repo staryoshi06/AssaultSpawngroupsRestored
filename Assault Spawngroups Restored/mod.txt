@@ -1,0 +1,21 @@
+{
+	"name" : "Assault Spawngroups Restored",
+	"description" : "Restores tac_swat_shotgun_rush, tac_swat_shotgun_flank, and tac_swat_rifle spawngroups",
+	"author" : "staryoshi06",
+	"contact" : "TBA",
+	"version" : "1.0",
+	"blt_version": 2,
+	"priority" : "100",
+	"hooks" :
+	[
+		{
+			"hook_id" : "lib/tweak_data/groupaitweakdata",
+			"script_path" : "lua/lib/tweak_data/groupaitweakdata.lua"
+		},
+		{
+			"hook_id" : "lib/managers/mission/elementspawnenemygroup",
+			"script_path" : "lua/lib/managers/mission/elementspawnenemygroup.lua"
+		}
+	]
+
+}
