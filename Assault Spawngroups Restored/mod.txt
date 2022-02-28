@@ -2,7 +2,7 @@
 	"name" : "Assault Spawngroups Restored",
 	"description" : "Restores tac_swat_shotgun_rush, tac_swat_shotgun_flank, and tac_swat_rifle spawngroups",
 	"author" : "staryoshi06",
-	"contact" : "TBA",
+	"contact" : "https://modworkshop.net/user/28039",
 	"version" : "1.0",
 	"blt_version": 2,
 	"priority" : "100",
