@@ -16,6 +16,16 @@
 			"hook_id" : "lib/managers/mission/elementspawnenemygroup",
 			"script_path" : "lua/lib/managers/mission/elementspawnenemygroup.lua"
 		}
+	],
+	"updates" :
+	[
+		{
+			"identifier": "star_assault_spawngroups_restored",
+            		"host":
+			{
+				"meta": "https://raw.githubusercontent.com/staryoshi06/AssaultSpawngroupsRestored/main/Assault%20Spawngroups%20Restored/updates/meta.json"
+			}
+		}
 	]
 
 }
