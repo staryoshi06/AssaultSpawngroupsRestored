@@ -3,7 +3,7 @@
 	"description" : "Restores tac_swat_shotgun_rush, tac_swat_shotgun_flank, and tac_swat_rifle spawngroups",
 	"author" : "staryoshi06",
 	"contact" : "https://modworkshop.net/user/28039",
-	"version" : "1.0",
+	"version" : "1.1",
 	"blt_version": 2,
 	"priority" : "100",
 	"hooks" :
