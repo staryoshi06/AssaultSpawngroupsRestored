@@ -10,6 +10,14 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "star_AGR_init_unit_ca
 end)
 
 Hooks:PostHook(GroupAITweakData, "_init_enemy_spawn_groups", "star_AGR_init_spawn_groups", function(self, difficulty_index)
+	--taser fix
+	self._tactics.tazer_flanking = {
+		"flank",
+		"charge",
+		"provide_coverfire",
+		"smoke_grenade",
+		"murder"
+	}
 	if difficulty_index <= 2 then
 		self.enemy_spawn_groups.tac_swat_shotgun_rush = {
 			amount = {
