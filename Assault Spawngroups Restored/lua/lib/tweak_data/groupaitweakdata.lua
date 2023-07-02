@@ -117,7 +117,7 @@ Hooks:PostHook(GroupAITweakData, "_init_enemy_spawn_groups", "star_AGR_init_spaw
 					tactics = self._tactics.swat_shotgun_rush
 				},
 				{
-					amount_min = 1,
+					amount_min = 0,
 					freq = 0.2,
 					amount_max = 1,
 					rank = 2,
@@ -150,7 +150,7 @@ Hooks:PostHook(GroupAITweakData, "_init_enemy_spawn_groups", "star_AGR_init_spaw
 					tactics = self._tactics.swat_shotgun_rush
 				},
 				{
-					amount_min = 1,
+					amount_min = 0,
 					freq = 0.35,
 					amount_max = 1,
 					rank = 2,
@@ -183,7 +183,7 @@ Hooks:PostHook(GroupAITweakData, "_init_enemy_spawn_groups", "star_AGR_init_spaw
 					tactics = self._tactics.swat_shotgun_rush
 				},
 				{
-					amount_min = 1,
+					amount_min = 0,
 					freq = 0.35,
 					amount_max = 1,
 					rank = 2,
@@ -216,7 +216,7 @@ Hooks:PostHook(GroupAITweakData, "_init_enemy_spawn_groups", "star_AGR_init_spaw
 					tactics = self._tactics.swat_shotgun_rush
 				},
 				{
-					amount_min = 1,
+					amount_min = 0,
 					freq = 0.35,
 					amount_max = 1,
 					rank = 2,
